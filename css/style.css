@@ -1,0 +1,83 @@
+body,
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  position: relative;
+  max-width: 460px;
+  margin: auto;
+  width: 360px;
+  height: 300px;
+}
+.card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 60px 0 40px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.avatar {
+  background-color: #cccccc;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.avatar .head {
+  background-color: #2e8def;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar .body {
+  background-color: #2e8def;
+  height: 30px;
+  width: 50px;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 5px;
+}
+
+.form-control-input {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.form-control-input input {
+  background: #cccccc;
+  border: none;
+  padding: 10px;
+  outline: none;
+  width: 200px;
+  border-bottom: 1px #2e8def solid;
+}
+
+.form-control-input .btn-submit-form {
+  background: #2e8def;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  outline: none;
+  width: 220px;
+}
+
+.form-control-input .register-account {
+  font-size: 13px;
+}
